@@ -100,6 +100,16 @@ function func0() {
   document.getElementById("display").innerHTML = value + "0";
 }
 
+// Special symbols
+function funcMin() {
+  var value = document.getElementById("display").innerHTML;
+  document.getElementById("display").innerHTML = value + "-";
+}
+function funcUnder() {
+  var value = document.getElementById("display").innerHTML;
+  document.getElementById("display").innerHTML = value + "_";
+}
+
 //Letter keys
 
 //q
@@ -595,44 +605,6 @@ function funcM() {
     } else if (shiftKey == "1") {
       shiftKey = "0";
       document.getElementById("display").innerHTML = value + "m";
-    }
-  }
-}
-//-
-function funcMin() {
-  var value = document.getElementById("display").innerHTML;
-  if (capsLock == "0") {
-    if (shiftKey == "0") {
-      document.getElementById("display").innerHTML = value + "-";
-    } else if (shiftKey == "1") {
-      shiftKey = "0";
-      document.getElementById("display").innerHTML = value + "-";
-    }
-  } else if (capsLock == "1") {
-    if (shiftKey == "0") {
-      document.getElementById("display").innerHTML = value + "-";
-    } else if (shiftKey == "1") {
-      shiftKey = "0";
-      document.getElementById("display").innerHTML = value + "-";
-    }
-  }
-}
-//_
-function funcUnder() {
-  var value = document.getElementById("display").innerHTML;
-  if (capsLock == "0") {
-    if (shiftKey == "0") {
-      document.getElementById("display").innerHTML = value + "_";
-    } else if (shiftKey == "1") {
-      shiftKey = "0";
-      document.getElementById("display").innerHTML = value + "_";
-    }
-  } else if (capsLock == "1") {
-    if (shiftKey == "0") {
-      document.getElementById("display").innerHTML = value + "_";
-    } else if (shiftKey == "1") {
-      shiftKey = "0";
-      document.getElementById("display").innerHTML = value + "_";
     }
   }
 }
