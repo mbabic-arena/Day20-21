@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Virtual Keyboard </title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h2>Virtual Keyboard</h2>
+        <div class="keyboard"></div>
+        <div class="textarea">
+            <textarea id="display" type="text" placeholder="TEXT AREA"></textarea>
+        </div>
+        <div class="buttons">
+            <div class="buttons">
+                <div class="row-one">
+                    <button onclick="func1()" id="1" class="keyN">1</button>
+                    <button onclick="func2()" id="2" class="keyN">2</button>
+                    <button onclick="func3()" id="3" class="keyN">3</button>
+                    <button onclick="func4()" id="4" class="keyN">4</button>
+                    <button onclick="func5()" id="5" class="keyN">5</button>
+                    <button onclick="func6()" id="6" class="keyN">6</button>
+                    <button onclick="func7()" id="7" class="keyN">7</button>
+                    <button onclick="func8()" id="8" class="keyN">8</button>
+                    <button onclick="func9()" id="9" class="keyN">9</button>
+                    <button onclick="func0()" id="0" class="keyN">0</button>
+                    <button onclick="funcDel()" id="backsp" class="backspace">Backspace</button>
+                </div>
+
+                <div class="row-two">
+                    <button onclick="funcQ()" id="q" class="key" value="q">q</button>
+                    <button onclick="funcW()" id="w" class="key" value="w">w</button>
+                    <button onclick="funcE()" id="e" class="key" value="e">e</button>
+                    <button onclick="funcR()" id="r" class="key" value="r">r</button>
+                    <button onclick="funcT()" id="t" class="key" value="t">t</button>
+                    <button onclick="funcY()" id="y" class="key" value="y">y</button>
+                    <button onclick="funcU()" id="u" class="key" value="u">u</button>
+                    <button onclick="funcI()" id="i" class="key" value="i">i</button>
+                    <button onclick="funcO()" id="o" class="key" value="o">o</button>
+                    <button onclick="funcP()" id="p" class="key" value="p">p</button>
+                    <button onclick="funcEnter()" id="ent" class="enter">Enter</button>
+                </div>
+                <div class="row-three">
+                    <button onclick="funcA()" id="a" class="key">a</button>
+                    <button onclick="funcS()" id="s" class="key">s</button>
+                    <button onclick="funcD()" id="d" class="key">d</button>
+                    <button onclick="funcF()" id="f" class="key">f</button>
+                    <button onclick="funcG()" id="g" class="key">g</button>
+                    <button onclick="funcH()" id="h" class="key">h</button>
+                    <button onclick="funcJ()" id="j" class="key">j</button>
+                    <button onclick="funcK()" id="k" class="key">k</button>
+                    <button onclick="funcL()" id="l" class="key">l</button>
+                    <button onclick="funcCL()" id="capsLock" class="caps-lock">Caps Lock</button>
+                </div>
+                <div class="row-four">
+                    <button onclick="funcZ()" id="z" class="key">z</button>
+                    <button onclick="funcX()" id="x" class="key">x</button>
+                    <button onclick="funcC()" id="c" class="key">c</button>
+                    <button onclick="funcV()" id="v" class="key">v</button>
+                    <button onclick="funcB()" id="b" class="key">b</button>
+                    <button onclick="funcN()" id="n" class="key">n</button>
+                    <button onclick="funcM()" id="m" class="key">m</button>
+                    <button onclick="funcMin()" id="-" class="key">-</button>
+                    <button onclick="funcUnder()" id="_" class="key">_</button>
+                    <button onclick="funcShift()" id="shif" class="shift">Shift</button>
+                </div>
+                <div class="row-five">
+                    <button onclick="funcSpace()" id="spac" class="space">Space</button>
+                    <button onclick="funcSubmit()" id="submt" class="submit">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- JavaScript -->
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>

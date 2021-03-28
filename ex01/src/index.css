@@ -1,0 +1,107 @@
+.buttons{
+	text-align: center;
+	justify-content: center;
+}
+.container{
+	width: 900px;
+	margin: auto;
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.keyboard{
+	text-align: center;
+}
+.textarea{
+	margin-bottom: 15px;
+	outline: none;
+}
+textarea input[type=text]{
+	text-align: center;
+	resize: none;
+    height: 250px;
+	width: 865px;
+	background: #cecfcf;
+	/*color: #fff;*/
+	overflow: auto;
+	border-radius: 10px;
+	outline: none;
+	border: 1px solid #adadad;
+	color: #2f3542;
+	font-size: 20px;
+	text-align: justify;
+}
+textarea{
+    margin-top: 50px;
+    margin-left: 5px;
+	resize: none;
+    height: 250px;
+	width: 865px;
+	background: #e4e4e4;
+	/*color: #fff;*/
+	overflow: auto;
+	border-radius: 10px;
+	outline: none;
+	border: 1px solid #adadad;
+	color: #2f3542;
+	font-size: 20px;
+	padding: 10px;
+}
+.buttons{
+	outline: none;
+}
+.buttons button{
+	margin: 0px;
+	background: rgb(0, 0, 0);
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	border: 1px solid #9c9c9c;
+    border-radius: 5px;
+}
+.buttons button:active{
+    background-color: #a3a7a3;
+    transform: translateY(4px);
+}
+.button:hover {
+    background-color: #b5b9b5
+}
+
+.buttons{
+	background: #fff;
+}
+.key, .keyN{
+	height: 45px;
+	width: 70px;
+}
+.space{
+	height: 45px;
+	width: 665px;
+}
+.submit{
+	height: 45px;
+	width: 225px;
+}
+.caps-lock{
+	height: 45px;
+	width: 225px;
+}
+.backspace{
+	height: 45px;
+	width: 150px
+}
+.shift{
+	height: 45px;
+	width: 225px;
+/* Style the active buttons*/
+}
+.shift:active{
+	background-color: #666;
+	color: white;
+  }
+.enter{
+	height: 45px;
+	width: 150px;
+}
+button.enter {
+    height: 45px;
+    width: 150px;
+}
